@@ -1,0 +1,401 @@
+asset_id,hostname,asset_type,os,business_unit,environment,internet_facing,data_classification,owner
+A0001,SRV-FIN-0001.corp.example,Server,Windows Server 2022,Finance,Development,False,Confidential,B. Okafor
+A0002,CLD-HUM-0002.corp.example,Cloud Workload,Ubuntu 22.04,Human Resources,Production,False,Restricted,F. Smith
+A0003,WS-FIN-0003.corp.example,Workstation,macOS 14,Finance,Production,False,Restricted,K. Patel
+A0004,SRV-CLA-0004.corp.example,Server,Windows Server 2022,Claims,Production,False,Confidential,F. Rivera
+A0005,WS-UND-0005.corp.example,Workstation,Windows 10,Underwriting,Production,False,Confidential,E. Chen
+A0006,WS-AGE-0006.corp.example,Workstation,macOS 14,Agency Portal,Production,False,Internal,D. Kim
+A0007,WS-IT -0007.corp.example,Workstation,Windows 10,IT Operations,Production,False,Internal,E. Patel
+A0008,WS-AGE-0008.corp.example,Workstation,macOS 14,Agency Portal,Production,False,Internal,M. Adams
+A0009,WS-AGE-0009.corp.example,Workstation,Windows 10,Agency Portal,Production,False,Internal,D. Patel
+A0010,SRV-UND-0010.corp.example,Server,Windows Server 2022,Underwriting,Development,False,Confidential,K. Chen
+A0011,WS-AGE-0011.corp.example,Workstation,Windows 10,Agency Portal,Production,False,Internal,J. Rivera
+A0012,SRV-UND-0012.corp.example,Server,RHEL 8,Underwriting,Production,False,Confidential,B. Nguyen
+A0013,WS-HUM-0013.corp.example,Workstation,Windows 11,Human Resources,Production,False,Confidential,J. Patel
+A0014,SRV-UND-0014.corp.example,Server,Windows Server 2022,Underwriting,Production,False,Restricted,F. Patel
+A0015,SRV-AGE-0015.corp.example,Server,Ubuntu 22.04,Agency Portal,Production,False,Confidential,B. Smith
+A0016,CLD-FIN-0016.corp.example,Cloud Workload,Windows Server 2022,Finance,Production,False,Restricted,B. Kim
+A0017,NET-AGE-0017.corp.example,Network Device,Palo Alto PAN-OS,Agency Portal,Production,False,Confidential,E. Johnson
+A0018,CLD-HUM-0018.corp.example,Cloud Workload,Windows Server 2022,Human Resources,Development,False,Confidential,G. Smith
+A0019,WS-AGE-0019.corp.example,Workstation,Windows 10,Agency Portal,Production,False,Confidential,D. Okafor
+A0020,WS-UND-0020.corp.example,Workstation,macOS 14,Underwriting,Production,False,Restricted,K. Okafor
+A0021,WS-IT -0021.corp.example,Workstation,macOS 14,IT Operations,Production,False,Internal,D. Chen
+A0022,CLD-FIN-0022.corp.example,Cloud Workload,Windows Server 2022,Finance,Production,True,Confidential,D. Johnson
+A0023,WS-AGE-0023.corp.example,Workstation,macOS 14,Agency Portal,Production,False,Internal,D. Kim
+A0024,NET-CLA-0024.corp.example,Network Device,Palo Alto PAN-OS,Claims,Production,True,Restricted,G. Kim
+A0025,CLD-UND-0025.corp.example,Cloud Workload,Amazon Linux 2023,Underwriting,Development,False,Confidential,M. Smith
+A0026,NET-UND-0026.corp.example,Network Device,Palo Alto PAN-OS,Underwriting,Production,True,Restricted,G. Patel
+A0027,WS-CLA-0027.corp.example,Workstation,Windows 11,Claims,Production,False,Restricted,J. Chen
+A0028,WS-AGE-0028.corp.example,Workstation,Windows 11,Agency Portal,Production,False,Confidential,D. Patel
+A0029,WS-HUM-0029.corp.example,Workstation,Windows 11,Human Resources,Production,False,Confidential,A. Patel
+A0030,WS-HUM-0030.corp.example,Workstation,Windows 10,Human Resources,Production,False,Confidential,E. Garcia
+A0031,SRV-IT -0031.corp.example,Server,Ubuntu 22.04,IT Operations,Production,False,Internal,D. Nguyen
+A0032,WS-UND-0032.corp.example,Workstation,macOS 14,Underwriting,Production,False,Restricted,M. Smith
+A0033,WS-AGE-0033.corp.example,Workstation,Windows 10,Agency Portal,Production,False,Confidential,A. Johnson
+A0034,WS-CLA-0034.corp.example,Workstation,Windows 11,Claims,Production,False,Confidential,B. Okafor
+A0035,WS-AGE-0035.corp.example,Workstation,Windows 11,Agency Portal,Production,False,Confidential,K. Chen
+A0036,WS-AGE-0036.corp.example,Workstation,macOS 14,Agency Portal,Production,False,Internal,E. Okafor
+A0037,SRV-FIN-0037.corp.example,Server,RHEL 8,Finance,Production,False,Confidential,F. Chen
+A0038,WS-AGE-0038.corp.example,Workstation,macOS 14,Agency Portal,Production,False,Confidential,B. Johnson
+A0039,WS-FIN-0039.corp.example,Workstation,Windows 11,Finance,Production,False,Confidential,B. Okafor
+A0040,WS-CLA-0040.corp.example,Workstation,Windows 10,Claims,Production,False,Confidential,M. Nguyen
+A0041,SRV-IT -0041.corp.example,Server,RHEL 8,IT Operations,Production,False,Public,B. Patel
+A0042,WS-UND-0042.corp.example,Workstation,macOS 14,Underwriting,Production,False,Restricted,E. Nguyen
+A0043,SRV-IT -0043.corp.example,Server,RHEL 8,IT Operations,Production,False,Public,H. Nguyen
+A0044,CLD-UND-0044.corp.example,Cloud Workload,Ubuntu 22.04,Underwriting,Production,True,Restricted,A. Smith
+A0045,SRV-IT -0045.corp.example,Server,Ubuntu 22.04,IT Operations,Production,False,Public,M. Garcia
+A0046,SRV-UND-0046.corp.example,Server,Windows Server 2019,Underwriting,Development,True,Confidential,K. Johnson
+A0047,WS-CLA-0047.corp.example,Workstation,Windows 11,Claims,Production,False,Restricted,F. Rivera
+A0048,CLD-CLA-0048.corp.example,Cloud Workload,Ubuntu 22.04,Claims,Production,False,Confidential,G. Adams
+A0049,SRV-CLA-0049.corp.example,Server,Ubuntu 22.04,Claims,Development,False,Restricted,C. Smith
+A0050,NET-HUM-0050.corp.example,Network Device,Palo Alto PAN-OS,Human Resources,Development,False,Restricted,M. Chen
+A0051,WS-UND-0051.corp.example,Workstation,Windows 10,Underwriting,Production,False,Restricted,D. Kim
+A0052,WS-CLA-0052.corp.example,Workstation,Windows 11,Claims,Production,False,Restricted,L. Okafor
+A0053,WS-FIN-0053.corp.example,Workstation,Windows 11,Finance,Production,False,Confidential,F. Johnson
+A0054,WS-AGE-0054.corp.example,Workstation,Windows 10,Agency Portal,Production,False,Confidential,B. Nguyen
+A0055,WS-FIN-0055.corp.example,Workstation,Windows 11,Finance,Production,False,Restricted,K. Garcia
+A0056,WS-FIN-0056.corp.example,Workstation,Windows 10,Finance,Production,False,Restricted,G. Adams
+A0057,WS-UND-0057.corp.example,Workstation,macOS 14,Underwriting,Production,False,Confidential,A. Johnson
+A0058,CLD-AGE-0058.corp.example,Cloud Workload,Ubuntu 22.04,Agency Portal,Development,False,Internal,B. Smith
+A0059,SRV-IT -0059.corp.example,Server,RHEL 8,IT Operations,Test,False,Public,G. Smith
+A0060,WS-FIN-0060.corp.example,Workstation,macOS 14,Finance,Production,False,Restricted,D. Garcia
+A0061,SRV-HUM-0061.corp.example,Server,Ubuntu 22.04,Human Resources,Test,False,Restricted,E. Nguyen
+A0062,WS-AGE-0062.corp.example,Workstation,macOS 14,Agency Portal,Production,False,Internal,H. Kim
+A0063,WS-CLA-0063.corp.example,Workstation,macOS 14,Claims,Production,False,Restricted,M. Patel
+A0064,SRV-FIN-0064.corp.example,Server,RHEL 8,Finance,Production,False,Restricted,D. Nguyen
+A0065,WS-CLA-0065.corp.example,Workstation,Windows 11,Claims,Production,False,Restricted,A. Okafor
+A0066,CLD-AGE-0066.corp.example,Cloud Workload,Ubuntu 22.04,Agency Portal,Production,False,Confidential,M. Garcia
+A0067,WS-CLA-0067.corp.example,Workstation,Windows 11,Claims,Production,False,Confidential,M. Rivera
+A0068,CLD-UND-0068.corp.example,Cloud Workload,Windows Server 2022,Underwriting,Production,False,Confidential,A. Johnson
+A0069,WS-UND-0069.corp.example,Workstation,Windows 10,Underwriting,Production,False,Restricted,H. Johnson
+A0070,CLD-AGE-0070.corp.example,Cloud Workload,Windows Server 2022,Agency Portal,Test,True,Internal,J. Kim
+A0071,CLD-IT -0071.corp.example,Cloud Workload,Amazon Linux 2023,IT Operations,Production,False,Public,E. Johnson
+A0072,WS-CLA-0072.corp.example,Workstation,Windows 10,Claims,Production,False,Restricted,B. Nguyen
+A0073,WS-FIN-0073.corp.example,Workstation,Windows 10,Finance,Production,False,Restricted,C. Patel
+A0074,WS-IT -0074.corp.example,Workstation,Windows 11,IT Operations,Production,False,Public,D. Chen
+A0075,WS-FIN-0075.corp.example,Workstation,macOS 14,Finance,Production,False,Confidential,G. Rivera
+A0076,WS-HUM-0076.corp.example,Workstation,Windows 10,Human Resources,Production,False,Restricted,K. Garcia
+A0077,WS-FIN-0077.corp.example,Workstation,Windows 10,Finance,Production,False,Confidential,G. Johnson
+A0078,SRV-AGE-0078.corp.example,Server,Windows Server 2022,Agency Portal,Test,False,Internal,G. Kim
+A0079,WS-FIN-0079.corp.example,Workstation,macOS 14,Finance,Production,False,Confidential,M. Patel
+A0080,NET-CLA-0080.corp.example,Network Device,Palo Alto PAN-OS,Claims,Production,False,Confidential,K. Rivera
+A0081,WS-HUM-0081.corp.example,Workstation,Windows 11,Human Resources,Production,False,Confidential,C. Rivera
+A0082,WS-FIN-0082.corp.example,Workstation,Windows 11,Finance,Production,False,Confidential,F. Smith
+A0083,SRV-HUM-0083.corp.example,Server,RHEL 8,Human Resources,Test,False,Restricted,H. Rivera
+A0084,SRV-UND-0084.corp.example,Server,Windows Server 2019,Underwriting,Production,False,Restricted,A. Okafor
+A0085,WS-UND-0085.corp.example,Workstation,macOS 14,Underwriting,Production,False,Restricted,D. Patel
+A0086,WS-UND-0086.corp.example,Workstation,macOS 14,Underwriting,Production,False,Restricted,H. Nguyen
+A0087,SRV-CLA-0087.corp.example,Server,Windows Server 2022,Claims,Development,False,Restricted,B. Adams
+A0088,WS-FIN-0088.corp.example,Workstation,macOS 14,Finance,Production,False,Confidential,G. Okafor
+A0089,WS-IT -0089.corp.example,Workstation,macOS 14,IT Operations,Production,False,Internal,B. Nguyen
+A0090,NET-AGE-0090.corp.example,Network Device,Palo Alto PAN-OS,Agency Portal,Development,False,Internal,L. Smith
+A0091,WS-IT -0091.corp.example,Workstation,Windows 10,IT Operations,Production,False,Internal,G. Kim
+A0092,WS-FIN-0092.corp.example,Workstation,macOS 14,Finance,Production,False,Confidential,M. Patel
+A0093,WS-IT -0093.corp.example,Workstation,macOS 14,IT Operations,Production,False,Public,E. Adams
+A0094,NET-AGE-0094.corp.example,Network Device,FortiOS,Agency Portal,Production,False,Internal,F. Okafor
+A0095,NET-UND-0095.corp.example,Network Device,Palo Alto PAN-OS,Underwriting,Production,True,Confidential,F. Rivera
+A0096,WS-FIN-0096.corp.example,Workstation,Windows 11,Finance,Production,False,Confidential,D. Smith
+A0097,NET-FIN-0097.corp.example,Network Device,Palo Alto PAN-OS,Finance,Production,True,Restricted,J. Okafor
+A0098,WS-IT -0098.corp.example,Workstation,Windows 10,IT Operations,Production,False,Confidential,J. Okafor
+A0099,SRV-IT -0099.corp.example,Server,Windows Server 2019,IT Operations,Production,False,Internal,E. Okafor
+A0100,WS-CLA-0100.corp.example,Workstation,Windows 10,Claims,Production,False,Confidential,K. Smith
+A0101,WS-AGE-0101.corp.example,Workstation,Windows 10,Agency Portal,Production,False,Internal,M. Johnson
+A0102,WS-IT -0102.corp.example,Workstation,Windows 10,IT Operations,Production,False,Confidential,E. Nguyen
+A0103,WS-IT -0103.corp.example,Workstation,Windows 11,IT Operations,Production,False,Confidential,B. Johnson
+A0104,CLD-IT -0104.corp.example,Cloud Workload,Ubuntu 22.04,IT Operations,Production,False,Confidential,M. Adams
+A0105,CLD-AGE-0105.corp.example,Cloud Workload,Ubuntu 22.04,Agency Portal,Development,False,Confidential,F. Patel
+A0106,WS-IT -0106.corp.example,Workstation,macOS 14,IT Operations,Production,False,Internal,E. Rivera
+A0107,CLD-AGE-0107.corp.example,Cloud Workload,Amazon Linux 2023,Agency Portal,Test,True,Confidential,K. Nguyen
+A0108,WS-HUM-0108.corp.example,Workstation,Windows 10,Human Resources,Production,False,Restricted,A. Nguyen
+A0109,CLD-HUM-0109.corp.example,Cloud Workload,Ubuntu 22.04,Human Resources,Production,False,Restricted,K. Rivera
+A0110,WS-AGE-0110.corp.example,Workstation,Windows 10,Agency Portal,Production,False,Confidential,D. Chen
+A0111,SRV-HUM-0111.corp.example,Server,Ubuntu 22.04,Human Resources,Development,False,Confidential,H. Nguyen
+A0112,CLD-HUM-0112.corp.example,Cloud Workload,Windows Server 2022,Human Resources,Production,False,Restricted,D. Okafor
+A0113,WS-UND-0113.corp.example,Workstation,Windows 11,Underwriting,Production,False,Restricted,C. Johnson
+A0114,WS-UND-0114.corp.example,Workstation,Windows 10,Underwriting,Production,False,Confidential,M. Adams
+A0115,WS-UND-0115.corp.example,Workstation,Windows 11,Underwriting,Production,False,Confidential,M. Nguyen
+A0116,SRV-HUM-0116.corp.example,Server,RHEL 8,Human Resources,Production,True,Restricted,G. Chen
+A0117,SRV-IT -0117.corp.example,Server,Windows Server 2022,IT Operations,Production,False,Internal,A. Patel
+A0118,NET-AGE-0118.corp.example,Network Device,Palo Alto PAN-OS,Agency Portal,Production,False,Internal,B. Kim
+A0119,SRV-IT -0119.corp.example,Server,Ubuntu 22.04,IT Operations,Production,False,Confidential,B. Adams
+A0120,WS-HUM-0120.corp.example,Workstation,macOS 14,Human Resources,Production,False,Confidential,K. Nguyen
+A0121,WS-CLA-0121.corp.example,Workstation,macOS 14,Claims,Production,False,Confidential,K. Rivera
+A0122,CLD-IT -0122.corp.example,Cloud Workload,Amazon Linux 2023,IT Operations,Production,False,Confidential,J. Kim
+A0123,CLD-CLA-0123.corp.example,Cloud Workload,Ubuntu 22.04,Claims,Production,False,Restricted,H. Smith
+A0124,WS-FIN-0124.corp.example,Workstation,macOS 14,Finance,Production,False,Restricted,C. Smith
+A0125,WS-HUM-0125.corp.example,Workstation,Windows 10,Human Resources,Production,False,Confidential,J. Rivera
+A0126,WS-FIN-0126.corp.example,Workstation,Windows 10,Finance,Production,False,Confidential,B. Garcia
+A0127,CLD-UND-0127.corp.example,Cloud Workload,Ubuntu 22.04,Underwriting,Production,False,Restricted,D. Johnson
+A0128,WS-HUM-0128.corp.example,Workstation,macOS 14,Human Resources,Production,False,Confidential,A. Okafor
+A0129,WS-CLA-0129.corp.example,Workstation,Windows 10,Claims,Production,False,Restricted,M. Kim
+A0130,WS-IT -0130.corp.example,Workstation,macOS 14,IT Operations,Production,False,Internal,M. Patel
+A0131,WS-UND-0131.corp.example,Workstation,macOS 14,Underwriting,Production,False,Confidential,B. Okafor
+A0132,CLD-UND-0132.corp.example,Cloud Workload,Amazon Linux 2023,Underwriting,Production,False,Confidential,M. Nguyen
+A0133,SRV-FIN-0133.corp.example,Server,Ubuntu 22.04,Finance,Production,False,Restricted,H. Johnson
+A0134,WS-CLA-0134.corp.example,Workstation,macOS 14,Claims,Production,False,Confidential,M. Patel
+A0135,CLD-FIN-0135.corp.example,Cloud Workload,Windows Server 2022,Finance,Test,False,Confidential,A. Nguyen
+A0136,SRV-AGE-0136.corp.example,Server,Windows Server 2022,Agency Portal,Production,False,Internal,J. Kim
+A0137,WS-AGE-0137.corp.example,Workstation,macOS 14,Agency Portal,Production,False,Internal,H. Smith
+A0138,CLD-IT -0138.corp.example,Cloud Workload,Ubuntu 22.04,IT Operations,Production,False,Internal,F. Kim
+A0139,SRV-HUM-0139.corp.example,Server,Windows Server 2022,Human Resources,Production,False,Confidential,A. Patel
+A0140,SRV-AGE-0140.corp.example,Server,Ubuntu 22.04,Agency Portal,Production,True,Confidential,J. Kim
+A0141,WS-CLA-0141.corp.example,Workstation,Windows 10,Claims,Production,False,Confidential,C. Chen
+A0142,WS-FIN-0142.corp.example,Workstation,Windows 10,Finance,Production,False,Confidential,L. Chen
+A0143,NET-IT -0143.corp.example,Network Device,Palo Alto PAN-OS,IT Operations,Production,False,Public,M. Kim
+A0144,CLD-UND-0144.corp.example,Cloud Workload,Windows Server 2022,Underwriting,Production,False,Confidential,D. Chen
+A0145,WS-UND-0145.corp.example,Workstation,macOS 14,Underwriting,Production,False,Restricted,H. Patel
+A0146,SRV-UND-0146.corp.example,Server,RHEL 8,Underwriting,Test,True,Confidential,G. Patel
+A0147,WS-HUM-0147.corp.example,Workstation,macOS 14,Human Resources,Production,False,Restricted,C. Patel
+A0148,WS-HUM-0148.corp.example,Workstation,macOS 14,Human Resources,Production,False,Restricted,H. Adams
+A0149,WS-HUM-0149.corp.example,Workstation,macOS 14,Human Resources,Production,False,Confidential,H. Nguyen
+A0150,SRV-HUM-0150.corp.example,Server,Windows Server 2022,Human Resources,Production,False,Restricted,H. Smith
+A0151,CLD-FIN-0151.corp.example,Cloud Workload,Ubuntu 22.04,Finance,Production,False,Confidential,E. Okafor
+A0152,CLD-HUM-0152.corp.example,Cloud Workload,Ubuntu 22.04,Human Resources,Production,False,Confidential,M. Nguyen
+A0153,WS-IT -0153.corp.example,Workstation,Windows 10,IT Operations,Production,False,Confidential,A. Adams
+A0154,CLD-IT -0154.corp.example,Cloud Workload,Ubuntu 22.04,IT Operations,Test,False,Internal,K. Smith
+A0155,WS-CLA-0155.corp.example,Workstation,macOS 14,Claims,Production,False,Restricted,L. Patel
+A0156,SRV-IT -0156.corp.example,Server,Ubuntu 22.04,IT Operations,Production,False,Internal,K. Smith
+A0157,SRV-UND-0157.corp.example,Server,Ubuntu 22.04,Underwriting,Production,False,Restricted,D. Patel
+A0158,NET-FIN-0158.corp.example,Network Device,Palo Alto PAN-OS,Finance,Development,False,Confidential,E. Smith
+A0159,NET-HUM-0159.corp.example,Network Device,Cisco IOS XE,Human Resources,Production,False,Confidential,J. Smith
+A0160,WS-HUM-0160.corp.example,Workstation,Windows 11,Human Resources,Production,False,Confidential,J. Chen
+A0161,WS-IT -0161.corp.example,Workstation,macOS 14,IT Operations,Production,False,Public,E. Adams
+A0162,WS-IT -0162.corp.example,Workstation,Windows 10,IT Operations,Production,False,Internal,L. Okafor
+A0163,WS-AGE-0163.corp.example,Workstation,macOS 14,Agency Portal,Production,False,Internal,K. Okafor
+A0164,SRV-IT -0164.corp.example,Server,Ubuntu 22.04,IT Operations,Test,False,Internal,C. Rivera
+A0165,CLD-FIN-0165.corp.example,Cloud Workload,Amazon Linux 2023,Finance,Production,False,Restricted,G. Kim
+A0166,WS-IT -0166.corp.example,Workstation,macOS 14,IT Operations,Production,False,Public,G. Adams
+A0167,SRV-CLA-0167.corp.example,Server,Ubuntu 22.04,Claims,Production,False,Confidential,G. Nguyen
+A0168,WS-FIN-0168.corp.example,Workstation,Windows 11,Finance,Production,False,Confidential,H. Okafor
+A0169,NET-UND-0169.corp.example,Network Device,FortiOS,Underwriting,Production,False,Confidential,A. Garcia
+A0170,WS-UND-0170.corp.example,Workstation,Windows 10,Underwriting,Production,False,Restricted,L. Okafor
+A0171,SRV-AGE-0171.corp.example,Server,RHEL 8,Agency Portal,Production,False,Confidential,C. Adams
+A0172,WS-AGE-0172.corp.example,Workstation,Windows 11,Agency Portal,Production,False,Confidential,D. Smith
+A0173,SRV-AGE-0173.corp.example,Server,Windows Server 2022,Agency Portal,Development,True,Internal,C. Chen
+A0174,SRV-UND-0174.corp.example,Server,Windows Server 2022,Underwriting,Production,False,Confidential,A. Patel
+A0175,WS-CLA-0175.corp.example,Workstation,macOS 14,Claims,Production,False,Restricted,J. Chen
+A0176,SRV-HUM-0176.corp.example,Server,Windows Server 2019,Human Resources,Production,False,Confidential,J. Okafor
+A0177,CLD-UND-0177.corp.example,Cloud Workload,Ubuntu 22.04,Underwriting,Test,False,Restricted,A. Kim
+A0178,NET-HUM-0178.corp.example,Network Device,Palo Alto PAN-OS,Human Resources,Production,False,Restricted,B. Smith
+A0179,SRV-UND-0179.corp.example,Server,RHEL 8,Underwriting,Production,False,Confidential,K. Johnson
+A0180,WS-AGE-0180.corp.example,Workstation,macOS 14,Agency Portal,Production,False,Internal,B. Chen
+A0181,NET-IT -0181.corp.example,Network Device,Cisco IOS XE,IT Operations,Production,False,Confidential,H. Okafor
+A0182,WS-HUM-0182.corp.example,Workstation,Windows 10,Human Resources,Production,False,Confidential,M. Chen
+A0183,WS-FIN-0183.corp.example,Workstation,macOS 14,Finance,Production,False,Confidential,F. Patel
+A0184,SRV-HUM-0184.corp.example,Server,Ubuntu 22.04,Human Resources,Development,True,Restricted,M. Smith
+A0185,NET-AGE-0185.corp.example,Network Device,FortiOS,Agency Portal,Test,True,Confidential,G. Smith
+A0186,CLD-HUM-0186.corp.example,Cloud Workload,Windows Server 2022,Human Resources,Test,False,Confidential,F. Chen
+A0187,SRV-CLA-0187.corp.example,Server,Windows Server 2019,Claims,Production,False,Restricted,J. Smith
+A0188,WS-FIN-0188.corp.example,Workstation,macOS 14,Finance,Production,False,Restricted,G. Johnson
+A0189,CLD-AGE-0189.corp.example,Cloud Workload,Amazon Linux 2023,Agency Portal,Production,False,Internal,A. Patel
+A0190,WS-FIN-0190.corp.example,Workstation,Windows 10,Finance,Production,False,Confidential,A. Patel
+A0191,CLD-AGE-0191.corp.example,Cloud Workload,Windows Server 2022,Agency Portal,Production,False,Confidential,B. Johnson
+A0192,WS-HUM-0192.corp.example,Workstation,Windows 10,Human Resources,Production,False,Confidential,C. Smith
+A0193,WS-FIN-0193.corp.example,Workstation,macOS 14,Finance,Production,False,Restricted,A. Patel
+A0194,WS-AGE-0194.corp.example,Workstation,Windows 11,Agency Portal,Production,False,Confidential,E. Kim
+A0195,SRV-HUM-0195.corp.example,Server,Windows Server 2022,Human Resources,Production,False,Restricted,F. Garcia
+A0196,WS-IT -0196.corp.example,Workstation,macOS 14,IT Operations,Production,False,Public,H. Johnson
+A0197,SRV-UND-0197.corp.example,Server,Windows Server 2019,Underwriting,Development,False,Restricted,E. Okafor
+A0198,SRV-FIN-0198.corp.example,Server,Ubuntu 22.04,Finance,Production,False,Confidential,C. Patel
+A0199,WS-IT -0199.corp.example,Workstation,Windows 11,IT Operations,Production,False,Public,J. Smith
+A0200,WS-IT -0200.corp.example,Workstation,Windows 11,IT Operations,Production,False,Confidential,A. Kim
+A0201,CLD-FIN-0201.corp.example,Cloud Workload,Windows Server 2022,Finance,Production,False,Confidential,E. Chen
+A0202,WS-FIN-0202.corp.example,Workstation,Windows 11,Finance,Production,False,Confidential,M. Smith
+A0203,WS-UND-0203.corp.example,Workstation,Windows 11,Underwriting,Production,False,Confidential,K. Garcia
+A0204,SRV-HUM-0204.corp.example,Server,RHEL 8,Human Resources,Development,False,Restricted,B. Johnson
+A0205,SRV-AGE-0205.corp.example,Server,RHEL 8,Agency Portal,Test,False,Confidential,D. Chen
+A0206,WS-CLA-0206.corp.example,Workstation,Windows 11,Claims,Production,False,Confidential,C. Chen
+A0207,WS-IT -0207.corp.example,Workstation,Windows 10,IT Operations,Production,False,Confidential,K. Adams
+A0208,WS-AGE-0208.corp.example,Workstation,macOS 14,Agency Portal,Production,False,Internal,L. Smith
+A0209,WS-UND-0209.corp.example,Workstation,Windows 10,Underwriting,Production,False,Confidential,L. Nguyen
+A0210,NET-AGE-0210.corp.example,Network Device,Palo Alto PAN-OS,Agency Portal,Production,True,Internal,H. Rivera
+A0211,WS-FIN-0211.corp.example,Workstation,Windows 11,Finance,Production,False,Restricted,K. Adams
+A0212,SRV-HUM-0212.corp.example,Server,Ubuntu 22.04,Human Resources,Development,False,Restricted,F. Adams
+A0213,WS-CLA-0213.corp.example,Workstation,Windows 11,Claims,Production,False,Restricted,B. Smith
+A0214,CLD-UND-0214.corp.example,Cloud Workload,Amazon Linux 2023,Underwriting,Production,False,Confidential,H. Johnson
+A0215,SRV-CLA-0215.corp.example,Server,Ubuntu 22.04,Claims,Test,False,Restricted,L. Adams
+A0216,WS-IT -0216.corp.example,Workstation,macOS 14,IT Operations,Production,False,Confidential,B. Smith
+A0217,WS-IT -0217.corp.example,Workstation,Windows 10,IT Operations,Production,False,Confidential,E. Adams
+A0218,CLD-FIN-0218.corp.example,Cloud Workload,Ubuntu 22.04,Finance,Production,True,Confidential,L. Garcia
+A0219,WS-IT -0219.corp.example,Workstation,Windows 11,IT Operations,Production,False,Confidential,J. Garcia
+A0220,SRV-FIN-0220.corp.example,Server,Windows Server 2019,Finance,Production,False,Confidential,J. Smith
+A0221,WS-FIN-0221.corp.example,Workstation,Windows 11,Finance,Production,False,Restricted,F. Kim
+A0222,WS-CLA-0222.corp.example,Workstation,Windows 11,Claims,Production,False,Restricted,E. Chen
+A0223,SRV-AGE-0223.corp.example,Server,RHEL 8,Agency Portal,Development,False,Confidential,K. Garcia
+A0224,WS-CLA-0224.corp.example,Workstation,macOS 14,Claims,Production,False,Confidential,C. Kim
+A0225,WS-FIN-0225.corp.example,Workstation,macOS 14,Finance,Production,False,Restricted,H. Adams
+A0226,WS-IT -0226.corp.example,Workstation,Windows 10,IT Operations,Production,False,Internal,J. Okafor
+A0227,WS-HUM-0227.corp.example,Workstation,Windows 11,Human Resources,Production,False,Confidential,L. Adams
+A0228,CLD-HUM-0228.corp.example,Cloud Workload,Amazon Linux 2023,Human Resources,Test,False,Restricted,K. Patel
+A0229,CLD-UND-0229.corp.example,Cloud Workload,Windows Server 2022,Underwriting,Development,False,Restricted,E. Chen
+A0230,SRV-FIN-0230.corp.example,Server,Ubuntu 22.04,Finance,Production,False,Restricted,D. Kim
+A0231,CLD-UND-0231.corp.example,Cloud Workload,Ubuntu 22.04,Underwriting,Production,False,Restricted,G. Chen
+A0232,WS-UND-0232.corp.example,Workstation,Windows 10,Underwriting,Production,False,Restricted,M. Smith
+A0233,NET-CLA-0233.corp.example,Network Device,FortiOS,Claims,Test,True,Restricted,M. Kim
+A0234,WS-UND-0234.corp.example,Workstation,Windows 11,Underwriting,Production,False,Restricted,E. Okafor
+A0235,NET-AGE-0235.corp.example,Network Device,Palo Alto PAN-OS,Agency Portal,Production,False,Confidential,E. Okafor
+A0236,WS-UND-0236.corp.example,Workstation,Windows 11,Underwriting,Production,False,Confidential,L. Adams
+A0237,WS-UND-0237.corp.example,Workstation,Windows 10,Underwriting,Production,False,Restricted,L. Johnson
+A0238,SRV-IT -0238.corp.example,Server,RHEL 8,IT Operations,Production,False,Internal,K. Garcia
+A0239,WS-IT -0239.corp.example,Workstation,Windows 11,IT Operations,Production,False,Public,F. Chen
+A0240,CLD-AGE-0240.corp.example,Cloud Workload,Ubuntu 22.04,Agency Portal,Development,False,Internal,A. Garcia
+A0241,CLD-FIN-0241.corp.example,Cloud Workload,Amazon Linux 2023,Finance,Production,False,Confidential,D. Chen
+A0242,SRV-IT -0242.corp.example,Server,RHEL 8,IT Operations,Production,False,Public,F. Patel
+A0243,NET-IT -0243.corp.example,Network Device,FortiOS,IT Operations,Production,False,Internal,C. Chen
+A0244,SRV-HUM-0244.corp.example,Server,Windows Server 2022,Human Resources,Production,True,Restricted,F. Nguyen
+A0245,SRV-AGE-0245.corp.example,Server,Windows Server 2022,Agency Portal,Production,False,Internal,F. Rivera
+A0246,CLD-FIN-0246.corp.example,Cloud Workload,Ubuntu 22.04,Finance,Test,False,Confidential,G. Smith
+A0247,CLD-HUM-0247.corp.example,Cloud Workload,Windows Server 2022,Human Resources,Production,False,Confidential,B. Garcia
+A0248,WS-AGE-0248.corp.example,Workstation,Windows 11,Agency Portal,Production,False,Internal,F. Chen
+A0249,WS-IT -0249.corp.example,Workstation,Windows 10,IT Operations,Production,False,Confidential,H. Adams
+A0250,SRV-CLA-0250.corp.example,Server,Windows Server 2019,Claims,Production,False,Confidential,F. Adams
+A0251,CLD-FIN-0251.corp.example,Cloud Workload,Amazon Linux 2023,Finance,Development,False,Confidential,F. Johnson
+A0252,NET-IT -0252.corp.example,Network Device,FortiOS,IT Operations,Production,True,Public,H. Rivera
+A0253,WS-CLA-0253.corp.example,Workstation,macOS 14,Claims,Production,False,Restricted,F. Garcia
+A0254,CLD-UND-0254.corp.example,Cloud Workload,Ubuntu 22.04,Underwriting,Production,False,Confidential,H. Chen
+A0255,SRV-AGE-0255.corp.example,Server,RHEL 8,Agency Portal,Production,False,Confidential,B. Rivera
+A0256,SRV-HUM-0256.corp.example,Server,RHEL 8,Human Resources,Development,False,Confidential,M. Kim
+A0257,WS-AGE-0257.corp.example,Workstation,Windows 10,Agency Portal,Production,False,Internal,D. Chen
+A0258,WS-UND-0258.corp.example,Workstation,Windows 10,Underwriting,Production,False,Restricted,M. Kim
+A0259,CLD-IT -0259.corp.example,Cloud Workload,Windows Server 2022,IT Operations,Test,False,Internal,J. Johnson
+A0260,WS-FIN-0260.corp.example,Workstation,Windows 11,Finance,Production,False,Restricted,F. Johnson
+A0261,WS-CLA-0261.corp.example,Workstation,Windows 11,Claims,Production,False,Restricted,H. Rivera
+A0262,WS-AGE-0262.corp.example,Workstation,Windows 10,Agency Portal,Production,False,Internal,J. Patel
+A0263,SRV-UND-0263.corp.example,Server,Ubuntu 22.04,Underwriting,Production,True,Confidential,G. Adams
+A0264,WS-FIN-0264.corp.example,Workstation,macOS 14,Finance,Production,False,Restricted,H. Kim
+A0265,SRV-FIN-0265.corp.example,Server,Windows Server 2022,Finance,Development,False,Confidential,J. Rivera
+A0266,NET-AGE-0266.corp.example,Network Device,Palo Alto PAN-OS,Agency Portal,Production,True,Confidential,F. Johnson
+A0267,CLD-UND-0267.corp.example,Cloud Workload,Windows Server 2022,Underwriting,Production,False,Confidential,C. Nguyen
+A0268,SRV-UND-0268.corp.example,Server,Windows Server 2022,Underwriting,Production,False,Restricted,L. Adams
+A0269,SRV-AGE-0269.corp.example,Server,Windows Server 2019,Agency Portal,Development,True,Confidential,A. Adams
+A0270,WS-CLA-0270.corp.example,Workstation,macOS 14,Claims,Production,False,Restricted,K. Rivera
+A0271,WS-IT -0271.corp.example,Workstation,macOS 14,IT Operations,Production,False,Confidential,L. Nguyen
+A0272,WS-IT -0272.corp.example,Workstation,Windows 10,IT Operations,Production,False,Confidential,H. Chen
+A0273,SRV-CLA-0273.corp.example,Server,Windows Server 2022,Claims,Production,False,Restricted,K. Patel
+A0274,WS-IT -0274.corp.example,Workstation,Windows 10,IT Operations,Production,False,Public,F. Garcia
+A0275,WS-FIN-0275.corp.example,Workstation,macOS 14,Finance,Production,False,Restricted,F. Okafor
+A0276,WS-FIN-0276.corp.example,Workstation,Windows 10,Finance,Production,False,Restricted,C. Chen
+A0277,WS-HUM-0277.corp.example,Workstation,macOS 14,Human Resources,Production,False,Confidential,D. Patel
+A0278,NET-AGE-0278.corp.example,Network Device,Cisco IOS XE,Agency Portal,Production,False,Internal,J. Kim
+A0279,WS-FIN-0279.corp.example,Workstation,Windows 10,Finance,Production,False,Restricted,B. Garcia
+A0280,SRV-CLA-0280.corp.example,Server,Windows Server 2019,Claims,Production,False,Restricted,H. Adams
+A0281,CLD-IT -0281.corp.example,Cloud Workload,Amazon Linux 2023,IT Operations,Production,False,Internal,G. Patel
+A0282,CLD-IT -0282.corp.example,Cloud Workload,Amazon Linux 2023,IT Operations,Production,False,Confidential,A. Adams
+A0283,SRV-FIN-0283.corp.example,Server,Ubuntu 22.04,Finance,Production,False,Confidential,K. Adams
+A0284,WS-UND-0284.corp.example,Workstation,Windows 10,Underwriting,Production,False,Confidential,F. Johnson
+A0285,CLD-CLA-0285.corp.example,Cloud Workload,Windows Server 2022,Claims,Production,False,Restricted,A. Rivera
+A0286,WS-FIN-0286.corp.example,Workstation,Windows 10,Finance,Production,False,Confidential,C. Adams
+A0287,CLD-CLA-0287.corp.example,Cloud Workload,Amazon Linux 2023,Claims,Production,False,Restricted,K. Nguyen
+A0288,SRV-AGE-0288.corp.example,Server,RHEL 8,Agency Portal,Production,False,Internal,A. Smith
+A0289,WS-UND-0289.corp.example,Workstation,Windows 10,Underwriting,Production,False,Confidential,M. Rivera
+A0290,SRV-FIN-0290.corp.example,Server,Windows Server 2019,Finance,Development,False,Confidential,C. Johnson
+A0291,SRV-AGE-0291.corp.example,Server,Windows Server 2022,Agency Portal,Production,False,Confidential,K. Chen
+A0292,WS-HUM-0292.corp.example,Workstation,Windows 10,Human Resources,Production,False,Confidential,C. Garcia
+A0293,SRV-HUM-0293.corp.example,Server,Ubuntu 22.04,Human Resources,Production,False,Restricted,M. Patel
+A0294,SRV-AGE-0294.corp.example,Server,Ubuntu 22.04,Agency Portal,Production,True,Internal,C. Kim
+A0295,CLD-FIN-0295.corp.example,Cloud Workload,Windows Server 2022,Finance,Production,False,Confidential,K. Kim
+A0296,WS-CLA-0296.corp.example,Workstation,Windows 10,Claims,Production,False,Confidential,E. Okafor
+A0297,CLD-FIN-0297.corp.example,Cloud Workload,Ubuntu 22.04,Finance,Test,False,Confidential,F. Johnson
+A0298,CLD-IT -0298.corp.example,Cloud Workload,Windows Server 2022,IT Operations,Production,False,Public,G. Garcia
+A0299,NET-CLA-0299.corp.example,Network Device,FortiOS,Claims,Production,True,Restricted,F. Kim
+A0300,SRV-IT -0300.corp.example,Server,RHEL 8,IT Operations,Production,False,Public,M. Nguyen
+A0301,WS-AGE-0301.corp.example,Workstation,macOS 14,Agency Portal,Production,False,Confidential,D. Rivera
+A0302,SRV-AGE-0302.corp.example,Server,Windows Server 2019,Agency Portal,Production,True,Internal,F. Kim
+A0303,WS-CLA-0303.corp.example,Workstation,Windows 11,Claims,Production,False,Confidential,C. Garcia
+A0304,SRV-HUM-0304.corp.example,Server,RHEL 8,Human Resources,Production,False,Confidential,E. Rivera
+A0305,CLD-UND-0305.corp.example,Cloud Workload,Windows Server 2022,Underwriting,Production,False,Restricted,C. Garcia
+A0306,CLD-CLA-0306.corp.example,Cloud Workload,Ubuntu 22.04,Claims,Production,False,Restricted,C. Nguyen
+A0307,CLD-UND-0307.corp.example,Cloud Workload,Ubuntu 22.04,Underwriting,Production,False,Confidential,H. Johnson
+A0308,SRV-CLA-0308.corp.example,Server,Windows Server 2022,Claims,Production,False,Restricted,F. Patel
+A0309,SRV-IT -0309.corp.example,Server,RHEL 8,IT Operations,Production,False,Confidential,K. Okafor
+A0310,WS-IT -0310.corp.example,Workstation,Windows 10,IT Operations,Production,False,Confidential,J. Smith
+A0311,WS-IT -0311.corp.example,Workstation,Windows 11,IT Operations,Production,False,Internal,C. Kim
+A0312,WS-CLA-0312.corp.example,Workstation,Windows 11,Claims,Production,False,Restricted,G. Okafor
+A0313,WS-FIN-0313.corp.example,Workstation,Windows 10,Finance,Production,False,Confidential,K. Adams
+A0314,WS-IT -0314.corp.example,Workstation,Windows 10,IT Operations,Production,False,Public,D. Rivera
+A0315,SRV-HUM-0315.corp.example,Server,RHEL 8,Human Resources,Production,False,Restricted,L. Nguyen
+A0316,WS-CLA-0316.corp.example,Workstation,Windows 11,Claims,Production,False,Restricted,H. Patel
+A0317,WS-AGE-0317.corp.example,Workstation,Windows 10,Agency Portal,Production,False,Internal,M. Johnson
+A0318,CLD-AGE-0318.corp.example,Cloud Workload,Windows Server 2022,Agency Portal,Development,False,Confidential,J. Kim
+A0319,SRV-FIN-0319.corp.example,Server,Windows Server 2019,Finance,Production,True,Restricted,K. Johnson
+A0320,WS-FIN-0320.corp.example,Workstation,macOS 14,Finance,Production,False,Confidential,B. Okafor
+A0321,SRV-HUM-0321.corp.example,Server,Windows Server 2019,Human Resources,Production,True,Confidential,C. Johnson
+A0322,WS-AGE-0322.corp.example,Workstation,Windows 11,Agency Portal,Production,False,Internal,L. Nguyen
+A0323,SRV-HUM-0323.corp.example,Server,Windows Server 2022,Human Resources,Production,False,Restricted,A. Garcia
+A0324,WS-UND-0324.corp.example,Workstation,macOS 14,Underwriting,Production,False,Restricted,B. Kim
+A0325,WS-HUM-0325.corp.example,Workstation,Windows 11,Human Resources,Production,False,Restricted,L. Garcia
+A0326,WS-HUM-0326.corp.example,Workstation,Windows 10,Human Resources,Production,False,Confidential,G. Chen
+A0327,SRV-IT -0327.corp.example,Server,RHEL 8,IT Operations,Production,False,Internal,C. Johnson
+A0328,WS-CLA-0328.corp.example,Workstation,macOS 14,Claims,Production,False,Restricted,A. Rivera
+A0329,CLD-HUM-0329.corp.example,Cloud Workload,Windows Server 2022,Human Resources,Production,False,Confidential,D. Okafor
+A0330,WS-CLA-0330.corp.example,Workstation,Windows 10,Claims,Production,False,Restricted,M. Chen
+A0331,WS-IT -0331.corp.example,Workstation,Windows 10,IT Operations,Production,False,Public,A. Okafor
+A0332,WS-UND-0332.corp.example,Workstation,macOS 14,Underwriting,Production,False,Restricted,H. Adams
+A0333,SRV-UND-0333.corp.example,Server,Ubuntu 22.04,Underwriting,Production,False,Restricted,J. Okafor
+A0334,SRV-UND-0334.corp.example,Server,RHEL 8,Underwriting,Development,False,Confidential,D. Nguyen
+A0335,CLD-IT -0335.corp.example,Cloud Workload,Ubuntu 22.04,IT Operations,Production,False,Internal,J. Adams
+A0336,CLD-CLA-0336.corp.example,Cloud Workload,Ubuntu 22.04,Claims,Production,False,Restricted,F. Garcia
+A0337,NET-FIN-0337.corp.example,Network Device,Palo Alto PAN-OS,Finance,Production,False,Confidential,C. Johnson
+A0338,WS-CLA-0338.corp.example,Workstation,Windows 10,Claims,Production,False,Confidential,C. Kim
+A0339,CLD-AGE-0339.corp.example,Cloud Workload,Windows Server 2022,Agency Portal,Production,False,Confidential,G. Okafor
+A0340,WS-FIN-0340.corp.example,Workstation,macOS 14,Finance,Production,False,Restricted,H. Smith
+A0341,WS-IT -0341.corp.example,Workstation,Windows 11,IT Operations,Production,False,Internal,E. Garcia
+A0342,SRV-AGE-0342.corp.example,Server,Windows Server 2022,Agency Portal,Production,True,Internal,D. Smith
+A0343,WS-UND-0343.corp.example,Workstation,Windows 11,Underwriting,Production,False,Restricted,M. Chen
+A0344,SRV-HUM-0344.corp.example,Server,Windows Server 2022,Human Resources,Production,False,Confidential,D. Johnson
+A0345,WS-FIN-0345.corp.example,Workstation,Windows 10,Finance,Production,False,Confidential,J. Smith
+A0346,WS-FIN-0346.corp.example,Workstation,macOS 14,Finance,Production,False,Confidential,H. Chen
+A0347,NET-IT -0347.corp.example,Network Device,Palo Alto PAN-OS,IT Operations,Development,False,Confidential,G. Rivera
+A0348,SRV-CLA-0348.corp.example,Server,Ubuntu 22.04,Claims,Production,False,Restricted,C. Okafor
+A0349,WS-HUM-0349.corp.example,Workstation,macOS 14,Human Resources,Production,False,Restricted,H. Johnson
+A0350,SRV-IT -0350.corp.example,Server,Ubuntu 22.04,IT Operations,Test,False,Confidential,C. Smith
+A0351,WS-IT -0351.corp.example,Workstation,macOS 14,IT Operations,Production,False,Confidential,C. Johnson
+A0352,CLD-UND-0352.corp.example,Cloud Workload,Windows Server 2022,Underwriting,Development,False,Restricted,A. Garcia
+A0353,WS-IT -0353.corp.example,Workstation,Windows 11,IT Operations,Production,False,Internal,M. Patel
+A0354,WS-AGE-0354.corp.example,Workstation,Windows 10,Agency Portal,Production,False,Internal,A. Adams
+A0355,SRV-AGE-0355.corp.example,Server,Windows Server 2019,Agency Portal,Production,False,Confidential,J. Johnson
+A0356,WS-UND-0356.corp.example,Workstation,macOS 14,Underwriting,Production,False,Confidential,J. Nguyen
+A0357,WS-IT -0357.corp.example,Workstation,macOS 14,IT Operations,Production,False,Confidential,C. Chen
+A0358,CLD-AGE-0358.corp.example,Cloud Workload,Windows Server 2022,Agency Portal,Production,True,Internal,F. Nguyen
+A0359,NET-UND-0359.corp.example,Network Device,FortiOS,Underwriting,Production,True,Restricted,M. Okafor
+A0360,WS-UND-0360.corp.example,Workstation,macOS 14,Underwriting,Production,False,Restricted,B. Garcia
+A0361,WS-AGE-0361.corp.example,Workstation,Windows 10,Agency Portal,Production,False,Confidential,L. Rivera
+A0362,SRV-UND-0362.corp.example,Server,RHEL 8,Underwriting,Production,False,Restricted,J. Rivera
+A0363,WS-IT -0363.corp.example,Workstation,macOS 14,IT Operations,Production,False,Confidential,E. Rivera
+A0364,CLD-IT -0364.corp.example,Cloud Workload,Amazon Linux 2023,IT Operations,Development,False,Confidential,A. Okafor
+A0365,SRV-IT -0365.corp.example,Server,Windows Server 2022,IT Operations,Test,False,Public,D. Adams
+A0366,NET-HUM-0366.corp.example,Network Device,Palo Alto PAN-OS,Human Resources,Production,False,Restricted,M. Chen
+A0367,SRV-FIN-0367.corp.example,Server,Windows Server 2019,Finance,Production,True,Confidential,K. Adams
+A0368,CLD-HUM-0368.corp.example,Cloud Workload,Windows Server 2022,Human Resources,Production,False,Confidential,H. Kim
+A0369,WS-AGE-0369.corp.example,Workstation,Windows 10,Agency Portal,Production,False,Internal,C. Adams
+A0370,SRV-UND-0370.corp.example,Server,Windows Server 2022,Underwriting,Production,False,Restricted,B. Nguyen
+A0371,WS-IT -0371.corp.example,Workstation,macOS 14,IT Operations,Production,False,Internal,M. Garcia
+A0372,WS-UND-0372.corp.example,Workstation,Windows 11,Underwriting,Production,False,Restricted,E. Kim
+A0373,WS-FIN-0373.corp.example,Workstation,Windows 11,Finance,Production,False,Restricted,B. Patel
+A0374,WS-AGE-0374.corp.example,Workstation,macOS 14,Agency Portal,Production,False,Internal,B. Rivera
+A0375,WS-AGE-0375.corp.example,Workstation,Windows 11,Agency Portal,Production,False,Internal,G. Rivera
+A0376,WS-HUM-0376.corp.example,Workstation,Windows 11,Human Resources,Production,False,Restricted,K. Johnson
+A0377,WS-HUM-0377.corp.example,Workstation,Windows 11,Human Resources,Production,False,Restricted,E. Nguyen
+A0378,WS-CLA-0378.corp.example,Workstation,Windows 11,Claims,Production,False,Restricted,G. Nguyen
+A0379,WS-HUM-0379.corp.example,Workstation,Windows 11,Human Resources,Production,False,Confidential,E. Okafor
+A0380,SRV-HUM-0380.corp.example,Server,Windows Server 2019,Human Resources,Production,False,Restricted,E. Rivera
+A0381,CLD-FIN-0381.corp.example,Cloud Workload,Ubuntu 22.04,Finance,Production,False,Confidential,F. Garcia
+A0382,NET-IT -0382.corp.example,Network Device,Palo Alto PAN-OS,IT Operations,Production,False,Public,M. Okafor
+A0383,WS-CLA-0383.corp.example,Workstation,Windows 10,Claims,Production,False,Restricted,E. Kim
+A0384,CLD-CLA-0384.corp.example,Cloud Workload,Ubuntu 22.04,Claims,Production,False,Restricted,B. Adams
+A0385,WS-AGE-0385.corp.example,Workstation,Windows 11,Agency Portal,Production,False,Confidential,M. Kim
+A0386,CLD-CLA-0386.corp.example,Cloud Workload,Windows Server 2022,Claims,Production,False,Restricted,G. Kim
+A0387,WS-FIN-0387.corp.example,Workstation,Windows 11,Finance,Production,False,Confidential,L. Patel
+A0388,SRV-HUM-0388.corp.example,Server,Ubuntu 22.04,Human Resources,Test,True,Confidential,J. Rivera
+A0389,NET-FIN-0389.corp.example,Network Device,Cisco IOS XE,Finance,Development,False,Restricted,L. Smith
+A0390,WS-AGE-0390.corp.example,Workstation,Windows 11,Agency Portal,Production,False,Internal,F. Garcia
+A0391,WS-UND-0391.corp.example,Workstation,Windows 10,Underwriting,Production,False,Restricted,J. Johnson
+A0392,SRV-IT -0392.corp.example,Server,Ubuntu 22.04,IT Operations,Production,False,Confidential,L. Adams
+A0393,SRV-CLA-0393.corp.example,Server,Windows Server 2019,Claims,Production,False,Restricted,G. Chen
+A0394,WS-IT -0394.corp.example,Workstation,Windows 11,IT Operations,Production,False,Confidential,E. Smith
+A0395,WS-CLA-0395.corp.example,Workstation,macOS 14,Claims,Production,False,Restricted,F. Kim
+A0396,WS-IT -0396.corp.example,Workstation,macOS 14,IT Operations,Production,False,Confidential,F. Chen
+A0397,WS-IT -0397.corp.example,Workstation,Windows 11,IT Operations,Production,False,Internal,F. Chen
+A0398,SRV-CLA-0398.corp.example,Server,Windows Server 2022,Claims,Development,False,Restricted,J. Garcia
+A0399,CLD-CLA-0399.corp.example,Cloud Workload,Amazon Linux 2023,Claims,Production,False,Confidential,L. Garcia
+A0400,WS-IT -0400.corp.example,Workstation,macOS 14,IT Operations,Production,False,Internal,H. Adams

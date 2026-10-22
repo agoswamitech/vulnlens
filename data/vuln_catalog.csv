@@ -1,0 +1,38 @@
+vuln_id,title,plugin_family,cvss_base,severity,epss,known_exploited,exploit_available
+SYN-2026-1001,Remote code execution in Java logging library,Application,10.0,Critical,0.9385,True,True
+SYN-2026-1002,SMBv1 remote code execution,Windows,8.1,High,0.8862,True,True
+SYN-2026-1003,Remote Desktop pre-auth RCE,Windows,9.8,Critical,0.8411,True,True
+SYN-2026-1004,Managed file transfer SQL injection,Web Application,9.8,Critical,0.97,True,True
+SYN-2026-1005,Print spooler privilege escalation,Windows,8.8,High,0.7898,False,True
+SYN-2026-1006,VPN appliance path traversal,Network,9.8,Critical,0.7602,True,True
+SYN-2026-1007,Firewall management interface auth bypass,Network,9.8,Critical,0.7266,False,True
+SYN-2026-1008,OpenSSL buffer over-read,Linux,7.5,High,0.3786,False,True
+SYN-2026-1009,Outdated TLS 1.0/1.1 enabled,General,5.3,Medium,0.0161,False,False
+SYN-2026-1010,Weak SSH ciphers supported,General,5.3,Medium,0.0034,False,False
+SYN-2026-1011,Self-signed TLS certificate,General,6.5,Medium,0.0056,False,False
+SYN-2026-1012,Browser use-after-free,Workstation,8.8,High,0.2815,False,True
+SYN-2026-1013,Office document macro RCE,Workstation,7.8,High,0.4494,False,True
+SYN-2026-1014,PDF reader heap overflow,Workstation,7.8,High,0.1866,False,False
+SYN-2026-1015,Linux kernel local privilege escalation,Linux,7.8,High,0.46,False,True
+SYN-2026-1016,sudo heap overflow,Linux,7.8,High,0.4458,False,True
+SYN-2026-1017,Apache HTTP Server request smuggling,Web Application,9.1,Critical,0.1043,False,False
+SYN-2026-1018,Spring framework RCE,Application,9.8,Critical,0.6266,False,True
+SYN-2026-1019,Missing HTTP security headers,Web Application,4.3,Medium,0.0031,False,False
+SYN-2026-1020,Directory listing enabled,Web Application,5.3,Medium,0.038,False,False
+SYN-2026-1021,SNMP default community string,Network,7.5,High,0.1225,False,False
+SYN-2026-1022,Unsupported OS version,General,10.0,Critical,0.1138,False,False
+SYN-2026-1023,Windows cumulative security update missing,Windows,8.8,High,0.225,False,False
+SYN-2026-1024,Exchange server SSRF,Windows,9.8,Critical,0.8892,True,True
+SYN-2026-1025,DNS server cache poisoning,Network,6.8,Medium,0.0724,False,False
+SYN-2026-1026,Java runtime outdated,Application,6.5,Medium,0.0563,False,False
+SYN-2026-1027,PHP remote code execution,Web Application,9.8,Critical,0.4301,False,True
+SYN-2026-1028,Cloud storage bucket publicly listable,Cloud,7.5,High,0.3199,False,True
+SYN-2026-1029,Instance metadata service v1 enabled,Cloud,6.5,Medium,0.2626,False,False
+SYN-2026-1030,Container image with critical library flaw,Cloud,9.8,Critical,0.0609,False,False
+SYN-2026-1031,Database default credentials,Application,9.8,Critical,0.6455,False,True
+SYN-2026-1032,NTLM relay possible (SMB signing disabled),Windows,6.5,Medium,0.2288,False,True
+SYN-2026-1033,jQuery cross-site scripting,Web Application,6.1,Medium,0.0472,False,False
+SYN-2026-1034,Zip library path traversal,Application,5.5,Medium,0.0587,False,False
+SYN-2026-1035,Hypervisor tools privilege escalation,Server,7.8,High,0.0754,False,False
+SYN-2026-1036,ICMP timestamp request disclosure,General,2.1,Low,0.0005,False,False
+SYN-2026-1037,Cleartext HTTP login form,Web Application,3.7,Low,0.0259,False,False
