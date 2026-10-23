@@ -1,5 +1,7 @@
 # VulnLens: Risk-Based Vulnerability Prioritization & Reporting
 
+[![tests](https://github.com/agoswamitech/vulnlens/actions/workflows/tests.yml/badge.svg)](https://github.com/agoswamitech/vulnlens/actions/workflows/tests.yml)
+
 VulnLens turns a raw vulnerability-scanner export into a **prioritized remediation plan**, an **Excel workbook** for analysts, and a **PowerPoint briefing** for leadership.
 
 The core idea: **CVSS severity is not risk.** A "Critical" flaw on an isolated dev box can matter less than a "Medium" flaw that attackers are actively exploiting on an internet-facing server full of policyholder PII. VulnLens scores every finding on three inputs (severity, threat, and asset context), assigns a P1–P4 priority with a remediation SLA, and reports on how well the organization is keeping up.
